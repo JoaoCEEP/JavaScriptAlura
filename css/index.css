@@ -18,11 +18,13 @@ header h1{
 	font-size: 2em;
 	display:inline-block;
 	vertical-align:	middle;
+
 }
 header h2{
 	font-size: 2em;
 	display:inline-block;
 	vertical-align:	middle;
+	margin-left: -300px;
 }
 
 header .container:before{
@@ -32,10 +34,28 @@ header .container:before{
 	vertical-align:	middle;
 }
 
+.container-img{
+	width: 40%;
+	height: 400px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-left: 480px;
+}
+
 .container{
-	width: 60%;
+	float: right;
+	width: 40%;
 	height: 100%;
-	margin: 0 auto;
+	margin-right: 50px;
+}
+
+.container-tabela{
+	float: left;
+	height: 50%;
+	width:50%;
+	margin-left: 50px;
+	
 }
 
 section{
@@ -47,8 +67,9 @@ section h2{
 	font-size: 3em;
 	display: block;
 	padding-bottom: .5em;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #000000;
 	margin-bottom: .5em;
+
 }
 
 table{
@@ -61,13 +82,13 @@ table{
 td, th {
 	padding: .7em;
 	margin: 0;
-	border: 1px solid #ccc;
+	border: 1px solid #000000;
 	text-align: center;
 }
 
 th{
 	font-weight: bold;
-	background-color: #EEE;
+	background-color: #ccc;
 }
 
 label{
@@ -80,7 +101,7 @@ label{
 	margin: 0;
 	padding-bottom: 1em;
 	width: 100%;
-	border: 1px solid #ccc;
+	border: 1px solid #000000;
 	padding: .7em;
 	width: 100%;
 }
@@ -95,6 +116,15 @@ label{
 	display: inline-block;
 	padding: 10px 0px;
 }
+.provisorio{
+	display: inline-block;
+	margin: 0;
+	padding-bottom: 1em;
+	width: 100%;
+	border: 1px solid #000000;
+	padding: .7em;
+	width: 100%;
+}
 
 button{
 	padding: .5em 2em;
@@ -105,8 +135,8 @@ button{
 	margin: 0;
 	margin-top: -3px;
 	color: #fff;
-	background-color:#0c8cd3;
-	border-color: #04324c;
+	background-color:#79e217;
+	border-color: #9ea606;
 	width: 20%;
     display: block;
     clear: both;
@@ -155,3 +185,14 @@ button[disabled=disabled], button:disabled {
 .invisivel {
 	display: none;
 }
+
+.imagem{
+   width: 25%;
+   margin-right: 0px;
+   margin-left: 150px;
+}
+.ima{
+	width: 25%;
+	margin-right: 0px;
+	margin-left: 600px;
+ }

@@ -31,6 +31,13 @@ function obtemPacienteDoFormulario(form) {
         altura: form.altura.value,
         gordura: form.gordura.value,
         imc: calculaImc(form.peso.value, form.altura.value)
+        matricula: form.matricula.value,
+        idade: form.matricula.value,
+        telefone: form.matricula.value,
+        celular: form.matricula.value,
+        estadoc: form.matricula.value,
+        profissao: form.matricula.value,
+        email: form.matricula.value,
     }
 
     return paciente;
@@ -45,7 +52,13 @@ function montaTr(paciente) {
     pacienteTr.appendChild(montaTd(paciente.altura, "info-altura"));
     pacienteTr.appendChild(montaTd(paciente.gordura, "info-gordura"));
     pacienteTr.appendChild(montaTd(paciente.imc, "info-imc"));
-
+    pacienteTr.appendChild(montaTd(paciente.matricula, "info-matricula"));
+    pacienteTr.appendChild(montaTd(paciente.idade, "info-idade"));
+    pacienteTr.appendChild(montaTd(paciente.telefone, "info-telefone"));
+    pacienteTr.appendChild(montaTd(paciente.celular, "info-celular"));
+    pacienteTr.appendChild(montaTd(paciente.estadoc, "info-estadoc"));
+    pacienteTr.appendChild(montaTd(paciente.profissao, "info-profissao"));
+    pacienteTr.appendChild(montaTd(paciente.email, "info-email"));
     return pacienteTr;
 }
 

@@ -32,12 +32,12 @@ function obtemPacienteDoFormulario(form) {
         gordura: form.gordura.value,
         imc: calculaImc(form.peso.value, form.altura.value)
         matricula: form.matricula.value,
-        idade: form.matricula.value,
-        telefone: form.matricula.value,
-        celular: form.matricula.value,
-        estadoc: form.matricula.value,
-        profissao: form.matricula.value,
-        email: form.matricula.value,
+        idade: form.idade.value,
+        telefone: form.telefone.value,
+        celular: form.celular.value,
+        estadoc: form.estadoc.value,
+        profissao: form.profissao.value,
+        email: form.email.value,
     }
 
     return paciente;
